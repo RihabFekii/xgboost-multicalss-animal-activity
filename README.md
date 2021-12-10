@@ -2,12 +2,12 @@
 
 Training an XGboost for multiclass classification for animal activity based on coordinates 
 
-- The data used for training is in a tabular format 
+The data used for training is in a tabular format 
 
 ## Imbalanced dataset handling 
 
 The target class in this data is imbalanced and below you can see the distribution
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/RihabFekii/xgboost-multicalss-animal-activity/blob/main/label-class-distribution.png)
 
 In this notebook, you can find ways to handle this class imbalance with the following techniques: 
 - Choosing the right classification model: I used XGboost because it is robust to class imbalance 
